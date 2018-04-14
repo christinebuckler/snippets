@@ -1,0 +1,17 @@
+sample,phenotype,subject,phenotype-desc,age,gender,rade,cigarette_smoke_exposure
+GSM469509,AA,71,atopic asthmatic,12.6,M,caucasian,Y (Father smokes)
+GSM469510,AA,78,atopic asthmatic,8.4,F,caucasian,Y (Father smokes)
+GSM469511,AA,87,atopic asthmatic,7.4,M,caucasian,N
+GSM469512,AA,88,atopic asthmatic,8.2,M,caucasian,Y (Mother smokes)
+GSM469514,AA,98,atopic asthmatic,5.2,F,caucasian,N
+GSM469518,AA,124,atopic asthmatic,7.1,F,caucasian,N
+GSM469520,AA,126,atopic asthmatic,7.1,F,caucasian,N
+GSM469522,AA,128,atopic asthmatic,9.7,M,caucasian,Y (Father smokes)
+GSM469523,AA,135,atopic asthmatic,7.9,F,caucasian,N
+GSM469508,HN,64,non-atopic non asthmatic,4.6,F,caucasian,Y (Father smokes)
+GSM469513,HN,97,non-atopic non asthmatic,12.3,F,caucasian,Y (Father & Mother smoke)
+GSM469515,HN,109,non-atopic non asthmatic,1.2,M,caucasian,N
+GSM469516,HN,119,non-atopic non asthmatic,1.8,M,caucasian,Y (Mother smokes)
+GSM469517,HN,122,non-atopic non asthmatic,2.8,M,caucasian,N
+GSM469519,HN,125,non-atopic non asthmatic,4.6,M,caucasian,Y (Father smokes)
+GSM469521,HN,127,non-atopic non asthmatic,5.1,M,caucasian,N
