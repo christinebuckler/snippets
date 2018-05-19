@@ -4,8 +4,8 @@ xcode-select --install
 brew doctor # after macOS or xcode update
 brew tap caskroom/cask
 
-brew install python # https://docs.brew.sh/Homebrew-and-Python
-brew install python3
+brew install python  
+brew install python@2
 brew install git
 brew install wget
 brew install tmux
