@@ -3,6 +3,7 @@ xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew doctor # after macOS or xcode update
 brew tap caskroom/cask
+brew cask install google-chrome
 
 brew install python  
 brew install python@2
@@ -28,7 +29,6 @@ brew cask install atom
                                 # To connect to a database, type Alt-Shift-R. Type your script in Atom, then either click Execute or F5.
 # apm install merge-conflicts   # to resolve merge conflicts in git
 # apm install remote-sync       # https://atom.io/packages/remote-sync
-brew cask install google-chrome
 brew cask install flux
 brew cask install slack
 sudo periodic daily weekly monthly
