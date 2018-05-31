@@ -3,7 +3,10 @@ xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew doctor # after macOS or xcode update
 brew tap caskroom/cask
+
+# personal only, use self-service if Nordstrom
 brew cask install google-chrome
+brew cask install slack
 
 brew install python  
 brew install python@2
@@ -22,16 +25,16 @@ brew install bash-completion
 brew cask install sqlworkbenchj
 brew cask install dbeaver-community
 brew cask install atom
-# apm install python-autopep8   # style guide check
-# apm install platformio-ide-terminal   # run scripts in atom, within venv?
-# apm install python-debugger
-# apm install data-atom         # Query and manage databases from within Atom to run SQL files.
-                                # To connect to a database, type Alt-Shift-R. Type your script in Atom, then either click Execute or F5.
-# apm install merge-conflicts   # to resolve merge conflicts in git
-# apm install remote-sync       # https://atom.io/packages/remote-sync
-brew cask install flux
-brew cask install slack
+apm install python-autopep8   # style guide check
+apm install platformio-ide-terminal   # run scripts in atom, within venv?
+apm install python-debugger
+apm install data-atom         # Query and manage databases from within Atom to run SQL files.
+                                To connect to a database, type Alt-Shift-R. Type your script in Atom, then either click Execute or F5.
+apm install merge-conflicts   # to resolve merge conflicts in git
+apm install remote-sync       # https://atom.io/packages/remote-sync
 sudo periodic daily weekly monthly
+
+brew cask install flux
 
 # brew install tree
 # brew install htop
