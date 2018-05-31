@@ -13,7 +13,7 @@ brew install tmux
 brew install docker
 # brew install docker-machine # tool that can install and manage Docker Engine on virtual hosts
 # brew install docker-compose # tool for defining and running multi-container docker applications
-brew install awscli
+brew install awscli     # see examples at /usr/local/share/awscli/examples
 brew install aws-shell  # accepts the same commands as the AWS CLI, except you don't need to provide the aws prefix.
 brew install node       # for awscreds
 brew cask install docker
